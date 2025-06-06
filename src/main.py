@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-from src.widgets.MainWidget import MainWidget
+from widgets.MainWidget import MainWidget
 from dotenv import load_dotenv
 
 

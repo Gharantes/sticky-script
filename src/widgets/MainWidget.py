@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5.QtCore import Qt
 
-from src.widgets.CloseButton import CloseButton
-from src.widgets.ScriptList import ScriptList
+from .CloseButton import CloseButton
+from .ScriptList import ScriptList
 
 
 class MainWidget(QWidget):
