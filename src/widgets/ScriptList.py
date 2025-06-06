@@ -29,6 +29,6 @@ class ScriptList(QListWidget):
         if reply == QMessageBox.Yes:
             try:
                 # Run the script with sudo, this will prompt for password in terminal
-                subprocess.run(['sudo', 'sh', filepath], check=True)
+                subprocess.run(['sh', filepath], check=True)
             except subprocess.CalledProcessError as e:
                 QMessageBox.warning(self, "Error", f"Failed to run script:\n{e}")
